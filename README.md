@@ -28,7 +28,7 @@ This is a simple To-Do application built with React. It allows users to add, edi
 
 ## Usage
 
-- Add a new task by typing in the input field and clicking the "Add" button.git commit -m "uploaded aish todolist app"
+- Add a new task by typing in the input field and clicking the "Add" button.git
 - Edit or delete tasks using the corresponding buttons.
 - Mark tasks as completed by checking the checkbox next to each task.
 
