@@ -10,10 +10,11 @@ This is a simple To-Do application built with React. It allows users to add, edi
 - [License](#license)
 
 ## Installation
-
+git commit -m "first commit"
 1. # Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-todo-app.git
+   git clone hhttps://github.com/aish7manoj/aish-todolist
+
 
 
 2. # Install dependencies:
@@ -21,19 +22,14 @@ This is a simple To-Do application built with React. It allows users to add, edi
 1. Navigate to the `server` directory (cd server)
 2. Run `npm install` to install dependencies.
 3. Run `node server.js` to start the server.
-4. come out of the folde cd .. 
-
-
-3. # run the program
-
-1. Navigate to the `aish-todolist` directory. (After the previous step you will be here)
-2. Run `npm install` to install dependencies.
-3. Run `npm start` to start the React application.
+4. come out of the folder cd ..
+5. Run `npm install` to install dependencies.
+6. Run `npm start` to start the React application.
 
 
 ## Usage
 
-- Add a new task by typing in the input field and clicking the "Add" button.
+- Add a new task by typing in the input field and clicking the "Add" button.git commit -m "uploaded aish todolist app"
 - Edit or delete tasks using the corresponding buttons.
 - Mark tasks as completed by checking the checkbox next to each task.
 
