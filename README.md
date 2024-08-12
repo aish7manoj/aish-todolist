@@ -2,14 +2,6 @@
 ## Description
 This To-Do application, developed with React, offers a user-friendly interface that enables users to efficiently manage their tasks. The app supports adding, editing, deleting, and marking tasks as complete, all within a clean and responsive UI designed for optimal user experience.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-
-
 # Clone the repository:
    ```bash
   
