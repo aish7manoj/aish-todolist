@@ -1,6 +1,6 @@
 # React TodoList App
 ## Description
-This is a simple To-Do application built with React. It allows users to add, edit, delete, and mark tasks as completed. The app is designed with a clean and responsive UI.
+This To-Do application, developed with React, offers a user-friendly interface that enables users to efficiently manage their tasks. The app supports adding, editing, deleting, and marking tasks as complete, all within a clean and responsive UI designed for optimal user experience.
 
 ## Table of Contents
 - [Installation](#installation)
