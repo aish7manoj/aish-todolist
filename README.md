@@ -12,7 +12,8 @@ This is a simple To-Do application built with React. It allows users to add, edi
 
 # Clone the repository:
    ```bash
-   git clone hhttps://github.com/aish7manoj/aish-todolist
+  
+    https://github.com/aish7manoj/aish-todolist.git
 
 
 
