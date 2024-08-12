@@ -21,7 +21,7 @@ This To-Do application, developed with React, offers a user-friendly interface t
 
 ## Usage
 
-- Add a new task by typing in the input field and clicking the "Add" button.git
+- Add a new task by typing in the input field and clicking the "Add" button.
 - Edit or delete tasks using the corresponding buttons.
 - Mark tasks as completed by checking the checkbox next to each task.
 
@@ -29,7 +29,7 @@ This To-Do application, developed with React, offers a user-friendly interface t
 - Add, edit, and delete tasks
 - Mark tasks as completed
 - Responsive design for mobile and desktop
-- Persistent storage using localStorage
+e
 
 
 
