@@ -9,15 +9,14 @@ This is a simple To-Do application built with React. It allows users to add, edi
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
-git commit -m "first commit"
-1. # Clone the repository:
+
+# Clone the repository:
    ```bash
    git clone hhttps://github.com/aish7manoj/aish-todolist
 
 
 
-2. # Install dependencies:
+# Install dependencies:
 
 1. Navigate to the `server` directory (cd server)
 2. Run `npm install` to install dependencies.
