@@ -1,7 +1,8 @@
 // component import
 import TodoItem from './TodoItem';
 
-// styles
+
+// Importing styles for the component from a CSS module
 import styles from './TodoList.module.css';
 
 const TodoList = ({ tasks, deleteTask, toggleTask, enterEditMode }) => {

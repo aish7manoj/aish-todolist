@@ -1,14 +1,14 @@
 import { useState } from 'react';
 
-// library imports
+// Importing PlusIcon from @heroicons for use in the butto
 import { PlusIcon } from '@heroicons/react/24/solid'
 
 const CustomForm = ({ addTask }) => {
   const [task, setTask] = useState("");
-
-  const handleFormSubmit = (e) => {
+  
+  const handleFormSubmit = (e) => {    // Function to handle form submission
     e.preventDefault();
-    addTask({
+    addTask({ // Calls addTask with new task object containing name, checked status, and a unique ID
       name: task,
       checked: false,
       id: Date.now()

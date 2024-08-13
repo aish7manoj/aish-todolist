@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-// library imports
+// Importing CheckIcon from @heroicons for use in the button
 import { CheckIcon } from '@heroicons/react/24/solid'
 
 const AddTodo = ({ editedTask, updateTask, closeEditMode }) => {
@@ -8,7 +8,7 @@ const AddTodo = ({ editedTask, updateTask, closeEditMode }) => {
 
   useEffect(()=> {
     const closeModalIfEscaped = (e) => {
-      e.key === "Escape" && closeEditMode();
+      e.key === "Escape" && closeEditMode();// Function to handle the 'Escape' key press for closing edit mode
     }
 
     window.addEventListener('keydown', closeModalIfEscaped)
@@ -18,6 +18,8 @@ const AddTodo = ({ editedTask, updateTask, closeEditMode }) => {
     }
   }, [closeEditMode])
 
+
+  // Function to handle form submission
   const handleFormSubmit = (e) => {
     e.preventDefault();
     updateTask({...editedTask, name: updatedTaskName})

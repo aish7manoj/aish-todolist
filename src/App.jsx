@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-// custom hooks
+// Importing custom hook for local storage management
 import useLocalStorage from './hooks/useLocalStorage'
 
-// custom components
+// custom components importing
 import CustomForm from './components/CustomForm'
 import AddTodo from './components/AddTodo'
 import TodoList from './components/TodoList'
@@ -14,15 +14,15 @@ function App() {
   const [editedTask, setEditedTask] = useState(null);
   const [isEditing, setIsEditing] = useState(false);
 
-  const addTask = (task) => {
+  const addTask = (task) => { 
     setTasks(prevState => [...prevState, task])
   }
 
-  const deleteTask = (id) => {
+  const deleteTask = (id) => { 
     setTasks(prevState => prevState.filter(t => t.id !== id));
   }
 
-  const toggleTask = (id) => {
+  const toggleTask = (id) => {  // Function to toggle the checked status of a task
     setTasks(prevState => prevState.map(t => (
       t.id === id
         ? { ...t, checked: !t.checked }
@@ -30,6 +30,7 @@ function App() {
     )))
   }
 
+    // Function to update an existing task's name
   const updateTask = (task) => {
     setTasks(prevState => prevState.map(t => (
       t.id === task.id
@@ -44,7 +45,8 @@ function App() {
     previousFocusEl.focus();
   }
 
-  const enterEditMode = (task) => {
+  const enterEditMode = (task) => { 
+  // Function to enter edit mode with the selected task
     setEditedTask(task);
     setIsEditing(true);
     setPreviousFocusEl(document.activeElement);

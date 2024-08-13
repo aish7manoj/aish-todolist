@@ -1,9 +1,10 @@
 import { useState } from 'react';
 
-// styles
+
+// Importing styles for the component from a CSS module
 import styles from './TodoItem.module.css';
 
-// Library imports
+// Importing icons from @heroicons for various actions
 import { CheckIcon  } from '@heroicons/react/24/outline';
 import { PencilSquareIcon  } from '@heroicons/react/24/outline';
 import { TrashIcon } from '@heroicons/react/24/outline';
@@ -11,7 +12,7 @@ import { TrashIcon } from '@heroicons/react/24/outline';
 const TodoItem = ({ task, deleteTask, toggleTask, enterEditMode }) => {
   const [isChecked, setIsChecked ] = useState(task.checked);
 
-  const handleCheckboxChange = (e) =>{
+  const handleCheckboxChange = (e) =>{  // Function to handle the change event of the checkbox
     setIsChecked(!isChecked);
     toggleTask(task.id);
   }
